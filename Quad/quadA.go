@@ -14,7 +14,7 @@ func QuadA(x, y int) {
 				z01.PrintRune('O')
 			} else if (j != 0 || j != x-1) && (i == 0 || i == y-1) {
 				z01.PrintRune('-')
-			} else if (i == 0 && i == y-1) || (j == x-1 && i != y-1) {
+			} else if (j == x-1 && i != y-1) || (j == 0 && i != y-1) {
 				z01.PrintRune('|')
 			} else {
 				z01.PrintRune(' ')
